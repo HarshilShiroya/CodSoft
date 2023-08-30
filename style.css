@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: rgb(30, 0, 54);
+    color: whitesmoke;
+    margin: 0;
+}
+
+body h1 span{
+    color: rgb(97, 119, 246);
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(60, 31, 84);
+    padding: 0 20px;
+}
+main hr{
+    border: 0;
+    background: rgb(97, 119, 246);
+    height: 1.2px;
+    margin: 40px 84px;
+}
+.left{
+    width: auto;
+    font-size: 1.5rem;
+    min-width: 100px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+}
+nav ul li{
+    margin: 5px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(208, 212, 238);
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+nav ul li a:hover{
+    color: rgb(8, 212, 238);
+    border: 1px;
+    border-color: rgb(73, 74, 83);
+    background: rgba(146, 143, 143, 0.062);
+    transition: 0.5s;
+    font-size: 1.03rem;
+}
+
+
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+    padding: 40px;
+}
+.firstSection div{
+    width: 40%;
+}
+.leftSection{
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 90%;
+    margin: 20px;
+    padding: 10px;
+    color: rgb(208, 212, 238);
+}
+.leftSection h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.leftSection span{
+    color: rgb(97, 119, 246);
+}
+.leftSection p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.rightSection img{
+    width: 80%;
+    height: auto;
+    max-width: 500px;
+}
+
+
+
+.secondSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.leftSection1 {
+    color: rgb(208, 212, 238);
+    flex: 1;
+    max-width: 45%;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 10px;
+}
+
+.rightSection1 img {
+    max-width: 80%;
+    height: auto;
+}
+
+.leftSection1 h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.leftSection1 li {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+
+.thirdSection {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 40px 84px;
+}
+
+.topSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.topSection img {
+    max-width: 80%;
+    height: auto;
+}
+
+.bottomSection {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgb(208, 212, 238);
+}
+
+.bottomSection h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.bottomSection p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.project-report-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(97, 119, 246);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.project-report-button:hover {
+    background-color: rgb(0, 170, 255);
+}
+
+
+
+.fourthSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.fourthSection div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 10px;
+}
+
+.fourthSection h2 {
+    font-size: 1.5rem;
+    color: rgb(97, 119, 246);
+    margin-bottom: 10px;
+}
+
+.resume-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(97, 119, 246);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.resume-button:hover {
+    background-color: rgb(0, 170, 255);
+}
+
+
+
+
+.fifthSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; 
+    margin: 40px 84px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.fifthSection div {
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 10px;
+}
+
+.fifthSection h1 {
+    font-size: 2rem;
+    color: white;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+a {
+    color: rgb(97, 119, 246);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(60, 31, 84);
+    color: white;
+}
+
+footer p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+footer a {
+    color: rgb(97, 119, 246);
+    text-decoration:aqua;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
